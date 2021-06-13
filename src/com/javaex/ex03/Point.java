@@ -9,7 +9,10 @@ public class Point {
 		this.x = x;
 		this.y = y;
 	}
-
+	
 	//toString()을 작성 하세요
-
+	public String toString() {
+		return "[포인트] x:" + x + ", y:" + y + " 입니다.";
+	}// 이게 맞나?
+	
 }
